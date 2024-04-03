@@ -1,9 +1,12 @@
+package Looping;
 import java.util.*;
 
-public class MultiplicationOfNumber {
+public class TableOfNumber {
     public static void main(String args[]) {
+
         @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
+        
         System.out.print("Enter any number : ");
         int num = sc.nextInt();
 

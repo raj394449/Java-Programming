@@ -1,3 +1,4 @@
+package Looping;
 import java.util.*;
 
 public class Factorial {

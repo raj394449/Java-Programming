@@ -1,4 +1,4 @@
-public class MultiplicationOpeator {
+public class MultiplicationMethod {
 
     int mul(int a, int b) {
         int Mul = a * b;
@@ -6,7 +6,7 @@ public class MultiplicationOpeator {
     }
 
     public static void main(String args[]) {
-        MultiplicationOpeator M = new MultiplicationOpeator();
+        MultiplicationMethod M = new MultiplicationMethod();
         System.out.println("Multiplication of Two number is : " + M.mul(8, 7));
     }
 }

@@ -1,11 +1,12 @@
-class SumofTwoNumber {
+class AdditionFunction {
+    
     void Sum(int a, int b) {
         int sum = a + b;
         System.out.println(sum);
     }
 
     public static void main(String args[]) {
-        SumofTwoNumber Obj = new SumofTwoNumber();
+        AdditionFunction Obj = new AdditionFunction();
         Obj.Sum(5, 9);
 
         // Instead of this we create a function that adds two number
